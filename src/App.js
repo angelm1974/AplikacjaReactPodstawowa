@@ -1,7 +1,8 @@
 import './App.css';
 import { useEffect, useState } from 'react';
+import PobierzPogode from './components/PobierzPogode';
 // import MojPrzycisk from './components/MojPrzycisk';
-import DaneUser from './components/DaneUser';
+// import DaneUser from './components/DaneUser';
 
 // const dodajJeden = () => {
 //   liczba = liczba + 1;
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-       <DaneUser />
+       {/* <DaneUser /> */}
+        <PobierzPogode />
        </header>
     </div>
   );

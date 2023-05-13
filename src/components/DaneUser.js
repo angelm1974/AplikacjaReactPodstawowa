@@ -4,10 +4,12 @@ import Siatka from "./Siatka";
 
 export default function DaneUser() {
   const [formDane, setFormDane] = useState(null);
+  const [gridData, setGridData] = useState([]);
 //   const [visible, setVisible] = useState(true);
 
   const zapisz = (data) => {
     setFormDane(data);
+    setGridData([...gridData, data]);
   };
 
   return (
@@ -32,7 +34,7 @@ export default function DaneUser() {
           </div>
         </div>
       )}
-      <Siatka gridData={formDane} />
+      <Siatka gridData={gridData} />
     </div>
   );
 }
