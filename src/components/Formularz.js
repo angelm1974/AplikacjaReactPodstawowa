@@ -45,7 +45,7 @@ export default function Formularz(props) {
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">
-                Podaj nazwisko</label>
+                Podaj email</label>
             <input 
                 type="email"
                 class="form-control"

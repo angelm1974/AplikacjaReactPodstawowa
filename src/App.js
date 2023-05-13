@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 // import MojPrzycisk from './components/MojPrzycisk';
-import Formularz from './components/Formularz';
+import DaneUser from './components/DaneUser';
 
 // const dodajJeden = () => {
 //   liczba = liczba + 1;
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-       <Formularz />
+       <DaneUser />
        </header>
     </div>
   );
